@@ -2,6 +2,8 @@
 
 [中文文档](./README.zh-CN.md)
 
+> This is the binary release repository. Source code, MESH-V3, GROUP-V2, and protocol specifications are maintained in the main Mox source repository. This README documents deployment of the packaged version, which may still include legacy group APIs.
+
 MoxServer is the chat and event relay for MoxChat. It stores short-lived relay data for direct messages, group messages, friend requests, receipts, group metadata snapshots, user profiles, user data, and the unified event stream.
 
 ## Release Files
