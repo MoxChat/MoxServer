@@ -6,6 +6,11 @@ MoxServer 是 MoxChat 的聊天与事件中继，负责私聊消息、群聊消�
 
 服务源码与目标规格由主 Mox 源码仓库维护，相关规格位于 `spec/relay/moxserver-mesh/`。本仓库只提供部署说明与可分发产物。
 
+## MoxChat 客户端
+
+- iOS：[在 App Store 下载](https://apps.apple.com/us/app/moxchat/id6775016915)
+- Web：[打开 MoxChat 网页版](https://app.ponzs.com)
+
 ## 从 GitHub 获取
 
 本仓库提供部署文档、预编译二进制和懒猫 LPK，无需安装 Go 或自行编译。当前包版本为 `1.3.0`；源码修订、构建时间见 [构建信息](./BUILD-INFO.md)，文件摘要见 [SHA256SUMS](./SHA256SUMS)。
