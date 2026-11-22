@@ -15,6 +15,8 @@ Service source code and target specifications are maintained in the main Mox sou
 
 This repository provides deployment documentation, prebuilt binaries, and Lazycat LPK packages. You do not need Go or a local build. The current package version is `1.3.2`; see [build information](./BUILD-INFO.md) for the source revision and build timestamp, and [SHA256SUMS](./SHA256SUMS) for file digests.
 
+This build updates signed device sessions and authorization for Group V2 message delivery.
+
 ### Clone the Release Repository
 
 With Git installed, run these commands on Linux, macOS, or Windows PowerShell:
@@ -62,7 +64,7 @@ if ((Get-FileHash .\moxserver-windows-amd64.exe -Algorithm SHA256).Hash -ne $exp
 
 For Windows arm64, replace `windows-amd64` with `windows-arm64`. Individual binary downloads do not include `.env`; set environment variables as shown in the deployment examples below. Start or install the service only after verification succeeds.
 
-These direct URLs read the `main` branch. To pin a version, replace `main` in every download URL with the same release repository commit SHA. The source revision in the build information belongs to the main source repository and cannot be used in these URLs. If the branch changes during download and verification fails, pin one commit and download the files again.
+These direct URLs read the `main` branch. To pin a version, replace `main` in every download URL with the same release repository commit SHA. The build information links to the service source revision. If the branch changes during download and verification fails, pin one commit and download the files again.
 
 ## Release Files
 
