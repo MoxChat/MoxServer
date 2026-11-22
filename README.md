@@ -13,9 +13,9 @@ Service source code and target specifications are maintained in the main Mox sou
 
 ## Get the Files from GitHub
 
-This repository provides deployment documentation, prebuilt binaries, and Lazycat LPK packages. You do not need Go or a local build. The current package version is `1.3.2`; see [build information](./BUILD-INFO.md) for the source revision and build timestamp, and [SHA256SUMS](./SHA256SUMS) for file digests.
+This repository provides deployment documentation, prebuilt binaries, and Lazycat LPK packages. You do not need Go or a local build. The current package version is `1.3.3`; see [build information](./BUILD-INFO.md) for the source revision and build timestamp, and [SHA256SUMS](./SHA256SUMS) for file digests.
 
-This build updates signed device sessions and authorization for Group V2 message delivery.
+Version 1.3.3 fixes upgrades from the two shipped schema version 15 variants. It preserves the existing migration history and records schema version 16 on startup.
 
 ### Clone the Release Repository
 
